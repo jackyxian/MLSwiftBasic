@@ -1,3 +1,5 @@
+//  github: https://github.com/MakeZL/MLSwiftBasic
+//  author: @email <120886865@qq.com>
 //
 //  ViewController.swift
 //  MLSwiftBasic
@@ -10,6 +12,7 @@ import UIKit
 
 class ViewController: MBBaseViewController {
 
+    /// example list
     lazy var lists:NSArray = {
         return ["demo1_custom_item","demo2_navigationColor","demo3_multiple_item","demo4_NormalDeveloper"]
     }()
@@ -20,6 +23,11 @@ class ViewController: MBBaseViewController {
         UIApplication.sharedApplication().setStatusBarStyle(.LightContent, animated: false)
     }
     
+    /**
+    All Title
+    
+    :returns: 返回Navigation的Items文字/图片
+    */
     override func leftImg() -> String {
         return "makezl.jpeg"
     }
@@ -32,6 +40,11 @@ class ViewController: MBBaseViewController {
         return "ML"
     }
     
+    /**
+    All Event
+    
+    :returns: 监听点击事件
+    */
     override func leftClick() {
         println("你点击了左边")
     }

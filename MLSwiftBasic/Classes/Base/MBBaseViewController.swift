@@ -1,3 +1,5 @@
+//  github: https://github.com/MakeZL/MLSwiftBasic
+//  author: @email <120886865@qq.com>
 //
 //  MBBaseViewController.swift
 //  MakeBolo
@@ -146,9 +148,8 @@ class MBBaseViewController: UIViewController,MBNavigationBarViewDelegate {
             self.navBar.rightTitles[i].addTarget(self, action: "rightClickAtIndexBtn:", forControlEvents: .TouchUpInside)
         }
     }
-    
+
     func setupNavItemWidthOrHeight(){
-        
         self.navBar.rightItemWidth = self.rightItemWidth()
         self.navBar.leftItemWidth = self.leftItemWidth()
     }
