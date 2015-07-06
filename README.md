@@ -83,7 +83,7 @@ MBBaseCommon.swift
 	let NAV_TEXT_COLOR:UIColor = UIColor.whiteColor()
 	// 导航栏的颜色
 	let NAV_BG_COLOR = UIColor(rgba: "ff9814")
-// 顶部的Y
-let TOP_Y:CGFloat = (CGFloat((UIDevice.currentDevice().systemVersion as NSString).floatValue) >= 7.0) ? 64.0 : 44.0
-// Margin
-let MARGIN_8:CGFloat = 8.0
+	// 顶部的Y
+	let TOP_Y:CGFloat = 	(CGFloat((UIDevice.currentDevice().systemVersion as NSString).floatValue) >= 7.0) ? 64.0 : 44.0
+	// Margin
+	let MARGIN_8:CGFloat = 8.0
