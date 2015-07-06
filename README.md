@@ -2,7 +2,7 @@
 swift新项目用这个会非常方便.  自定义导航栏，一行代码轻轻松松完成 (左边按钮、右边按钮、标题、多个按钮、自动返回按钮、标题、图片)。 会不断提供Swift分类
 
 ### Demo or Gif
-![image](https://github.com/MakeZL/MLSwiftBasic/blob/master/Demo.gif)
+![image](https://github.com/MakeZL/MLSwiftBasic/blob/master/MLSwiftBasic/Demo.gif)
 
 
 # Use
