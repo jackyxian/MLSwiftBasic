@@ -7,6 +7,7 @@ swift新项目用这个会非常方便.  自定义导航栏，一行代码轻轻
 
 # Use
 import Class
+######  
 UINavigationController 继承一个MBNavigationViewController 即可
 UIViewController 继承一个MBBaseViewController 即可
 
