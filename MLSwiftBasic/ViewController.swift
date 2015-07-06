@@ -11,7 +11,7 @@ import UIKit
 class ViewController: MBBaseViewController {
 
     lazy var lists:NSArray = {
-        return ["demo1_custom_item","demo2_navigationColor","demo3_multiple_item"]
+        return ["demo1_custom_item","demo2_navigationColor","demo3_multiple_item","demo4_NormalDeveloper"]
     }()
     
     override func viewDidLoad() {
@@ -63,7 +63,8 @@ class ViewController: MBBaseViewController {
             self.navigationController?.pushViewController(Demo2ViewController(), animated: true)
         }else if indexPath.row == 2 {
             self.navigationController?.pushViewController(Demo3ViewController(), animated: true)
-            
+        }else if indexPath.row == 3 {
+            self.navigationController?.pushViewController(Demo4ViewController(), animated: true)
         }
     }
 }

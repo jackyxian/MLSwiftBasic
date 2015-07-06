@@ -23,6 +23,7 @@
 		484987691B4A6AF800051493 /* MB+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987681B4A6AF800051493 /* MB+UIImageView.swift */; };
 		48EB19A61B4A6FA500F75A5F /* makezl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 48EB19A51B4A6FA500F75A5F /* makezl.jpeg */; };
 		48EB19A81B4A75D600F75A5F /* Demo3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB19A71B4A75D600F75A5F /* Demo3ViewController.swift */; };
+		48EB19AA1B4A7F0400F75A5F /* Demo4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB19A91B4A7F0400F75A5F /* Demo4ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		484987681B4A6AF800051493 /* MB+UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MB+UIImageView.swift"; sourceTree = "<group>"; };
 		48EB19A51B4A6FA500F75A5F /* makezl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = makezl.jpeg; sourceTree = "<group>"; };
 		48EB19A71B4A75D600F75A5F /* Demo3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo3ViewController.swift; sourceTree = "<group>"; };
+		48EB19A91B4A7F0400F75A5F /* Demo4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo4ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				484987621B4A5F4500051493 /* Demo1ViewController.swift */,
 				484987661B4A665600051493 /* Demo2ViewController.swift */,
 				48EB19A71B4A75D600F75A5F /* Demo3ViewController.swift */,
+				48EB19A91B4A7F0400F75A5F /* Demo4ViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				4849875D1B4A5F2500051493 /* MBBaseViewController.swift in Sources */,
 				4849875F1B4A5F2500051493 /* MBNavigationViewController.swift in Sources */,
 				4849872F1B4A5A1200051493 /* AppDelegate.swift in Sources */,
+				48EB19AA1B4A7F0400F75A5F /* Demo4ViewController.swift in Sources */,
 				48EB19A81B4A75D600F75A5F /* Demo3ViewController.swift in Sources */,
 				484987631B4A5F4500051493 /* Demo1ViewController.swift in Sources */,
 				4849875E1B4A5F2500051493 /* MBNavigationBarView.swift in Sources */,
