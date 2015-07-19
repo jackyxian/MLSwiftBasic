@@ -21,6 +21,9 @@
 		484987651B4A61BA00051493 /* MBBaseCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987641B4A61BA00051493 /* MBBaseCommon.swift */; };
 		484987671B4A665600051493 /* Demo2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987661B4A665600051493 /* Demo2ViewController.swift */; };
 		484987691B4A6AF800051493 /* MB+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484987681B4A6AF800051493 /* MB+UIImageView.swift */; };
+		487D67A51B5BB46E007871CF /* Demo5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D67A41B5BB46E007871CF /* Demo5ViewController.swift */; };
+		487D67A71B5BB635007871CF /* MBBaseVisualViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D67A61B5BB635007871CF /* MBBaseVisualViewController.swift */; };
+		487D67A91B5BB718007871CF /* MBBaseVisualHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487D67A81B5BB718007871CF /* MBBaseVisualHeaderView.swift */; };
 		48EB19A61B4A6FA500F75A5F /* makezl.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 48EB19A51B4A6FA500F75A5F /* makezl.jpeg */; };
 		48EB19A81B4A75D600F75A5F /* Demo3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB19A71B4A75D600F75A5F /* Demo3ViewController.swift */; };
 		48EB19AA1B4A7F0400F75A5F /* Demo4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48EB19A91B4A7F0400F75A5F /* Demo4ViewController.swift */; };
@@ -55,6 +58,9 @@
 		484987641B4A61BA00051493 /* MBBaseCommon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBBaseCommon.swift; sourceTree = "<group>"; };
 		484987661B4A665600051493 /* Demo2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo2ViewController.swift; sourceTree = "<group>"; };
 		484987681B4A6AF800051493 /* MB+UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MB+UIImageView.swift"; sourceTree = "<group>"; };
+		487D67A41B5BB46E007871CF /* Demo5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo5ViewController.swift; sourceTree = "<group>"; };
+		487D67A61B5BB635007871CF /* MBBaseVisualViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBBaseVisualViewController.swift; sourceTree = "<group>"; };
+		487D67A81B5BB718007871CF /* MBBaseVisualHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBBaseVisualHeaderView.swift; sourceTree = "<group>"; };
 		48EB19A51B4A6FA500F75A5F /* makezl.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = makezl.jpeg; sourceTree = "<group>"; };
 		48EB19A71B4A75D600F75A5F /* Demo3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo3ViewController.swift; sourceTree = "<group>"; };
 		48EB19A91B4A7F0400F75A5F /* Demo4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo4ViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +158,8 @@
 				484987591B4A5F2500051493 /* MBNavigationBarView.swift */,
 				4849875A1B4A5F2500051493 /* MBNavigationViewController.swift */,
 				484987641B4A61BA00051493 /* MBBaseCommon.swift */,
+				487D67A61B5BB635007871CF /* MBBaseVisualViewController.swift */,
+				487D67A81B5BB718007871CF /* MBBaseVisualHeaderView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -173,6 +181,7 @@
 				484987661B4A665600051493 /* Demo2ViewController.swift */,
 				48EB19A71B4A75D600F75A5F /* Demo3ViewController.swift */,
 				48EB19A91B4A7F0400F75A5F /* Demo4ViewController.swift */,
+				487D67A41B5BB46E007871CF /* Demo5ViewController.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -279,10 +288,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				484987691B4A6AF800051493 /* MB+UIImageView.swift in Sources */,
+				487D67A51B5BB46E007871CF /* Demo5ViewController.swift in Sources */,
 				484987651B4A61BA00051493 /* MBBaseCommon.swift in Sources */,
 				484987671B4A665600051493 /* Demo2ViewController.swift in Sources */,
+				487D67A91B5BB718007871CF /* MBBaseVisualHeaderView.swift in Sources */,
 				484987601B4A5F2500051493 /* MB+UIColor.swift in Sources */,
 				484987311B4A5A1200051493 /* ViewController.swift in Sources */,
+				487D67A71B5BB635007871CF /* MBBaseVisualViewController.swift in Sources */,
 				4849875D1B4A5F2500051493 /* MBBaseViewController.swift in Sources */,
 				4849875F1B4A5F2500051493 /* MBNavigationViewController.swift in Sources */,
 				4849872F1B4A5A1200051493 /* AppDelegate.swift in Sources */,

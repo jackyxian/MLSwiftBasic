@@ -10,11 +10,13 @@
 
 import UIKit
 
+
+
 class ViewController: MBBaseViewController {
 
     /// example list
     lazy var lists:NSArray = {
-        return ["demo1_custom_item","demo2_navigationColor","demo3_multiple_item","demo4_NormalDeveloper"]
+        return ["demo1_custom_item","demo2_navigationColor","demo3_multiple_item","demo4_NormalDeveloper","demo5_visual"]
     }()
     
     override func viewDidLoad() {
@@ -69,7 +71,6 @@ class ViewController: MBBaseViewController {
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
         if indexPath.row == 0 {
             self.navigationController?.pushViewController(Demo1ViewController(), animated: true)
         }else if indexPath.row == 1 {
@@ -78,6 +79,8 @@ class ViewController: MBBaseViewController {
             self.navigationController?.pushViewController(Demo3ViewController(), animated: true)
         }else if indexPath.row == 3 {
             self.navigationController?.pushViewController(Demo4ViewController(), animated: true)
+        }else if indexPath.row == 4 {
+            self.navigationController?.pushViewController(Demo5ViewController(), animated: true)
         }
     }
 }

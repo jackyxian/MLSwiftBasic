@@ -28,4 +28,7 @@ class Demo4ViewController: MBBaseViewController {
         return "Demo4"
     }
 
+    override func rightImgs() -> NSArray {
+        return ["makezl.jpeg", "makezl.jpeg"]
+    }
 }
