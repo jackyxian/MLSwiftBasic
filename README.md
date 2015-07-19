@@ -2,8 +2,17 @@
 swift新项目用这个会非常方便.  自定义导航栏，一行代码轻轻松松完成 (左边按钮、右边按钮、标题、多个按钮、自动返回按钮、标题、图片)。 会不断提供Swift分类
 
 ### Demo or Gif
-![image](https://github.com/MakeZL/MLSwiftBasic/blob/master/MLSwiftBasic/Demo.gif)
+![image](https://github.com/MakeZL/MLSwiftBasic/blob/master/MLSwiftBasic/Demo1.gif)
 
+### 新特性
+懒人Swift基本框架，正提供各种简单，方便的接口 
+目前支持的功能：
+1> 自定义导航栏、监听事件
+2> 滚动效果
+3> 正在筹备一些分类，期待您的PullRequest
+准备迭代：
+4> 正在准备滑动渐变的导航栏效果
+5> iOS7的手势
 
 # Use
 import Class
